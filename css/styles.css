@@ -1,0 +1,39 @@
+body {
+  color: black;
+  background-color: #f66f40;
+  font-size: 1.2rem;
+  font-family: 'Ibarra Real Nova', serif;
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: center; }
+  body h1 {
+    font-family: 'Berkshire Swash', cursive;
+    margin-top: 1rem;
+    font-size: 3rem; }
+  body div {
+    margin-top: 1rem;
+    margin-bottom: 1rem; }
+  body img {
+    height: 350px; }
+  body button {
+    margin: 10px; }
+    body button .left_button {
+      float: left; }
+    body button .right_button {
+      float: right; }
+
+@media (max-width: 778px) {
+  img {
+    height: 250px !important; } }
+
+@media (max-width: 556px) {
+  img {
+    height: 150px !important; } }
+
+@media (max-width: 333px) {
+  img {
+    height: 100px !important; } }
+
+@media (min-width: 1200px) {
+  img {
+    height: 500px !important; } }

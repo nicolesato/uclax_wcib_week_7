@@ -1,30 +1,58 @@
-body {
-	font-family: sans-serif;
-	margin: 20px;
+$color1: rgba( 246, 111, 64, 1);
 
-  .board {
-  	background: yellow;
-  	width: 300px;
-  	height: 300px;
-    margin-bottom: 20px;
-  }
+	body {
+		color: black;
+		background-color: $color1;
+		font-size: 1.2rem;
+	font-family: 'Ibarra Real Nova', serif;
+	margin-left: 10%;
+	margin-right: 10%;
 
-  .square {
-  	width: 100px;
-  	height: 100px;
-  	float: left;
+		h1 {
+font-family: 'Berkshire Swash', cursive;
+margin-top: 1rem;
+font-size: 3rem;
+		}
 
-    &.red {
-    	background: red;
-    }
+text-align: center;
 
-    &.green {
-    	background: green;
-    }
-  }
+div {
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+}
 
-  .animal {
-    width: 100px;
-    height: auto;
-  }
+img {
+	height: 350px;
+}
+
+		button {
+			margin: 10px;
+.left_button {
+	float: left;
+}
+.right_button {
+	float: right;
+}
+		}
+}
+
+@media (max-width: 778px) {
+	img {
+		height: 250px !important;
+	}
+}
+@media (max-width: 556px) {
+	img {
+		height: 150px !important;
+	}
+}
+@media (max-width: 333px) {
+	img {
+		height: 100px !important;
+	}
+}
+@media (min-width: 1200px) {
+	img {
+		height: 500px !important;
+	}
 }
